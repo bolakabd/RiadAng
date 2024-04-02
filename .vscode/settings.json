@@ -2,5 +2,7 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2959793f-3a3e-4a39-8d1f-f9303634a1dd/resourceGroups/RiadAng_group/providers/Microsoft.Web/sites/RiadAng",
+    "appService.deploySubpath": "RiadAng\\dist\\riad-ang"
 }

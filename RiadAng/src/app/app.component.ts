@@ -14,11 +14,11 @@ export class AppComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    //this.http.get('https://dimepro.azurewebsites.net/api/User').subscribe({
-    //  next: response => this.users = response,
-    //  error: error => console.log(error),
-    //  complete: () => console.log('Request complete')
-    //})
+    this.http.get('https://dimepro.azurewebsites.net/api/User').subscribe({
+      next: response => this.users = response,
+      error: error => console.log(error),
+      complete: () => console.log('Request complete')
+    })
   }
 
   
